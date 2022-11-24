@@ -1,4 +1,4 @@
-package com.pgp.util;
+package com.singlife.collection.util;
 
 import lombok.Data;
 import org.bouncycastle.openpgp.PGPException;

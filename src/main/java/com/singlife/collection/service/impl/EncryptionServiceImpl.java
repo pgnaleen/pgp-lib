@@ -1,8 +1,7 @@
-package com.pgp.service.impl;
+package com.singlife.collection.service.impl;
 
-import com.pgp.service.Cipher;
-import com.pgp.service.EncryptionService;
-import lombok.Data;
+import com.singlife.collection.service.Cipher;
+import com.singlife.collection.service.EncryptionService;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.bouncycastle.openpgp.PGPException;
 import org.springframework.beans.factory.annotation.Value;

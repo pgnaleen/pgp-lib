@@ -1,7 +1,7 @@
-package com.pgp.service.impl;
+package com.singlife.collection.service.impl;
 
 
-import com.pgp.util.PGPEncryptionUtil;
+import com.singlife.collection.util.PGPEncryptionUtil;
 import org.bouncycastle.bcpg.ArmoredOutputStream;
 import org.bouncycastle.bcpg.CompressionAlgorithmTags;
 import org.bouncycastle.openpgp.*;

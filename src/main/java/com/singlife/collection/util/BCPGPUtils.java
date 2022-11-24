@@ -1,4 +1,4 @@
-package com.pgp.util;
+package com.singlife.collection.util;
 
 import org.bouncycastle.openpgp.*;
 import org.bouncycastle.openpgp.operator.jcajce.JcaKeyFingerprintCalculator;

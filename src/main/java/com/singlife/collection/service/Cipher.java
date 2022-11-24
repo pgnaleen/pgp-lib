@@ -1,4 +1,4 @@
-package com.pgp.service;
+package com.singlife.collection.service;
 
 import org.bouncycastle.openpgp.PGPException;
 

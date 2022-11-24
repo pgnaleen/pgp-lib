@@ -1,10 +1,10 @@
-package com.pgp.service.impl;
+package com.singlife.collection.service.impl;
 
 import com.google.common.io.CharStreams;
-import com.pgp.util.BCPGPEncryptor;
-import com.pgp.util.Encrypt;
-import com.pgp.util.Signature;
-import com.pgp.service.Cipher;
+import com.singlife.collection.util.BCPGPEncryptor;
+import com.singlife.collection.util.Encrypt;
+import com.singlife.collection.util.Signature;
+import com.singlife.collection.service.Cipher;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.bouncycastle.openpgp.*;
 import org.bouncycastle.openpgp.operator.bc.BcKeyFingerprintCalculator;
