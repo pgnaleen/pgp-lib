@@ -31,7 +31,7 @@ public class CipherImpl implements Cipher {
     private String pubKey;
     private String priKey;
 
-    @Value("${pay-now.key.pwd}")
+    @Value("${collection.key.pwd}")
     private String pwd;
 
     @Override
@@ -39,7 +39,7 @@ public class CipherImpl implements Cipher {
         return decrypt(new ByteArrayInputStream(encryptedData.getBytes()));
     }
 
-    @Value("${pay-now.key.pub}")
+    @Value("${collection.key.pub}")
     private void setPubKey(String pubKey) {
         this.pubKey = new String(Base64.getDecoder().decode(pubKey));
     }

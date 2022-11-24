@@ -16,7 +16,7 @@ import java.util.Optional;
 @Service
 public class EncryptionServiceImpl implements EncryptionService {
 
-    @Value("${pay-now.key.pwd}")
+    @Value("${collection.key.pwd}")
     private String passPhase;
 
     private final Cipher cipher;
